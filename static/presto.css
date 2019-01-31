@@ -264,7 +264,13 @@ code {
 
 footer .copyright {
   color: #666;
-  font-size: 0.9em; }
+  font-size: 0.7em; }
+
+footer .footer-icons {
+  padding: 0 10px;
+  height: 18px;
+  text-align: center;
+}
 
 /* mobile first */
 
