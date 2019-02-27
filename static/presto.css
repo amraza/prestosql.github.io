@@ -69,11 +69,17 @@ a:hover, a:active {
 
 /* -- CONTENT -- */
 
+div.content ul {
+    padding-left: 30px;
+}
 div.content ul > li {
     list-style-type: disc;
-    list-style-position: inside;
+    list-style-position: outside;
     line-height: 20px;
     padding: 0;
+    margin-bottom: 6px;
+}
+div.content ol > li {
     margin-bottom: 6px;
 }
 
